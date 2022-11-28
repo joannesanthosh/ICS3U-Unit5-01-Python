@@ -11,7 +11,7 @@ def fahrenheit():
         temp_fahrenheit = (9 / 5) * temp_celsius + 32
         print("\nThe temperature is {0} fahrenheit.".format(temp_fahrenheit))
     except Exception:
-        print("\n This is an invalid input. Please try again")
+        print("\nThis is an invalid input. Please try again")
     finally:
         print("\nDone.")
 
