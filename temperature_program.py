@@ -2,23 +2,25 @@
 
 # Created by: Joanne Santhosh
 # Created on: Nov 2022
-# This program converts temperature from celsius to fahrenheit
+# This program converts the temperature from celsius to fahrenheit
+
+
+def fahrenheit():
+    try:
+        temp_celsius = int(input("Enter the degrees in celsius: "))
+        temp_fahrenheit = (9 / 5) * temp_celsius + 32
+        print("\nThe temperature is {0} fahrenheit.".format(temp_fahrenheit))
+    except Exception:
+        print("\n This is an invalid input. Please try again")
+    finally:
+        print("\nDone.")
 
 
 def main():
-    # This function adds up two numbers
+    # this function just calls other functions
 
-    # input
-    temperature_input = int(input("Enter the temperature in celsius:"))
-
-    # process
-    answer = first_number + second_number
-
-    # output
-    print("")
-    print("{0} + {1} = {2}.".format(first_number, second_number, answer))
-    print("")
-    print("Done.")
+    # call functions
+    fahrenheit()
 
 
 if __name__ == "__main__":
