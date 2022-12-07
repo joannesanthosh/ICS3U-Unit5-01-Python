@@ -6,6 +6,7 @@
 
 
 def fahrenheit():
+    # This function does the calculation
     try:
         temp_celsius = int(input("Enter the degrees in celsius: "))
         temp_fahrenheit = (9 / 5) * temp_celsius + 32
